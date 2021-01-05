@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 hashthemall () {
 	md5sum --tag "$1"
 	sha1sum --tag "$1"
